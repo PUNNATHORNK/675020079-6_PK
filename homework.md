@@ -512,7 +512,7 @@ print(Drought_summary_of_Rosmarinus)
     ## Chlorophyll_Content       Stem_Diameter   Days_to_Flowering 
     ##           36.433333            6.066667           60.333333
 
-คำตอบข้อที่ 2
+# คำตอบข้อที่ 2
 
 ``` r
 summary_plant_data <- plant_growth_data %>%
@@ -543,7 +543,7 @@ print(head(summary_plant_data))
     ## # ℹ 4 more variables: Mean_Soil_pH <dbl>, Mean_Chlorophyll_Content <dbl>,
     ## #   Mean_Stem_Diameter <dbl>, Mean_Days_to_Flowering <dbl>
 
-คำตอบข้อที่ 3
+# คำตอบข้อที่ 3
 
 ``` r
 #กรองเหลือเฉพาะ Rosa/control
@@ -588,7 +588,8 @@ bar_positions <- barplot(plot_values,
                         )
 ```
 
-![](homework_files/figure-gfm/unnamed-chunk-9-1.png)<!-- --> คำตอบข้อที 4
+![](homework_files/figure-gfm/unnamed-chunk-9-1.png)<!-- --> 
+# คำตอบข้อที 4
 
 ``` r
 #subset control
@@ -628,7 +629,8 @@ bar_positions <- barplot(heights, # ความสูงของแต่ล�
                          las = 2)
 ```
 
-![](homework_files/figure-gfm/unnamed-chunk-11-1.png)<!-- --> คำตอบข้อที 5
+![](homework_files/figure-gfm/unnamed-chunk-11-1.png)<!-- --> 
+# คำตอบข้อที 5
 
 ``` r
 #subset fertilizer
@@ -667,7 +669,8 @@ bar_positions <- barplot(heights_2, # ความสูงของแต่ล
                          las = 2)
 ```
 
-![](homework_files/figure-gfm/unnamed-chunk-13-1.png)<!-- --> คำตอบข้อที 6
+![](homework_files/figure-gfm/unnamed-chunk-13-1.png)<!-- --> 
+# คำตอบข้อที 6
 
 ``` r
 subset_end_plant <- summary_plant_data[,c("Species", "Treatment", "Mean_Days_to_Flowering")]
