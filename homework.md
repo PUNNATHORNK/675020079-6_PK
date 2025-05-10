@@ -42,7 +42,7 @@ library(dplyr)
 library(ggplot2)
 ```
 
-คำตอบข้อที่ 1 \##Rosa species
+# คำตอบข้อที่ 1 \##Rosa species
 
 ``` r
 #เลือก species
